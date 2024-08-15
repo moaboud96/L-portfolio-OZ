@@ -1,3 +1,5 @@
+/* Global Rules */
+
 * { 
     box-sizing: border-box;
 }
@@ -37,14 +39,7 @@ body {
     }
 }
 
+/* end of global rules */
 
 
-/* <uniquifier>: Use a unique and descriptive class name */
-/* <weight>: Use a value from 100 to 900 */
-
-.work-sans-<uniquifier> {
-  font-family: "Work Sans", system-ui;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+/* header style  */
