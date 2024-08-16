@@ -43,7 +43,7 @@ body {
 
 /* header style  */
 
-header {
+.header {
     padding: 20px;
 }
 
@@ -75,7 +75,7 @@ header {
 .header .links .icon span {
     background-color: #333;
     margin-bottom: 5px;
-    height: 3px;
+    height: 2px;
 }
 
 .header .links .icon span:first-child {
@@ -132,3 +132,4 @@ header {
     border-bottom: 1px solid #ddd;
 }
 /* end of header  */
+
