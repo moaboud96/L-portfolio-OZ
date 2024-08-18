@@ -392,6 +392,13 @@ body {
     height: 375px;
 }
 
+@media (max-width: 991px) {
+    .about .about-content .image {
+        margin: 0 auto auto 80px;
+    }
+}
+
+
 .about .about-content .image::before {
     content: "";
     position: absolute;
@@ -414,6 +421,15 @@ body {
     right: -150px;
     top: -40px;
 }
+
+@media (max-width: 991px) {
+    .about .about-content .image::after, 
+    .about .about-content .image::before {
+        display: none;
+    } 
+
+}
+
 
 .about .about-content .image img {
     max-width: 100%;
@@ -440,6 +456,8 @@ body {
     line-height: 2;
     color: var(--p-color);
 }
+
+
 /* end about section  */
 
 
