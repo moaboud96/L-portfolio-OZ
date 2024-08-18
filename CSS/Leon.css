@@ -61,6 +61,9 @@ body {
     width: 600px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* small screen  */
 @media (min-width: 768px) {
